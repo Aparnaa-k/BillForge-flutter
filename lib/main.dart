@@ -17,7 +17,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'itim'),
+      theme: ThemeData(
+        fontFamily: 'Inter',
+        scaffoldBackgroundColor: Colors.white,
+      ),
       home: const HomePage(),
     );
   }
